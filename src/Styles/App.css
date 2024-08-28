@@ -12,6 +12,24 @@ nav{
     padding: 1em;
 }
 
+nav button{
+    transition: transform 0.2s ease-in-out;
+}
+
+nav button:hover{
+    transform: scale(1.075);
+}
+    
+nav button:active{
+    transform: scale(1.025);
+}
+
+nav button:focus{
+    outline: none;
+    border: none;
+}
+
+
 .pokemon-display{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
